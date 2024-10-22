@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="image.png" alt="URL Shortener" class="header-image"> <!-- Add your image here -->
+        <h1>URL Shortener</h1>
+        <input type="text" id="url-input" placeholder="Enter your long URL here">
+        <button id="shorten-btn">Shorten</button>
+        <div id="loading" class="loading" style="display: none;">Loading...</div>
+        <div id="result" class="result" style="display: none;">
+            <p>Shortened URL: <span id="shortened-url"></span></p>
+            <button id="copy-btn">Copy</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
